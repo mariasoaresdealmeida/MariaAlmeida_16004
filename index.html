@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISDIN • Cuidados de Pele</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/separador.png" type="image/x-icon">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+<div id="topo"></div>
+
+<div class="header-top">
+  <div class="logo">
+    <a href="#">
+      <img src="images/logo_isdin.png" alt="Logo ISDIN">
+    </a>
+  </div>
+
+  <div class="header-actions">
+    <a href="https://www.isdin.com/pt" target="_blank" class="btn-isdin-site">
+      Visitar Site Oficial ISDIN
+    </a>
+  </div>
+</div>
+
+<nav class="main-nav">
+  <a href="#produtos">Produtos</a>
+  <a href="#novidades">Novidades</a>
+  <a href="#opinioes">Opiniões</a>
+  <a href="#contactos">Contactos</a>
+</nav>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Descobre o creme ISDIN ideal para ti ✨</h1>
+      <p>Responde a algumas perguntas e encontra o cuidado perfeito para a tua pele.</p>
+      <a href="#quiz" class="btn-primary">Fazer o Quiz</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/modelos.jpg" alt="Modelos com produtos ISDIN">
+    </div>
+  </section>
+
+  <section class="features" id="novidades">
+    <div class="feature">
+      <img src="images/Fusiowater Magic 2.jpg" alt="Nova geração de proteção ISDIN">
+      <h2>A nova geração de proteção ISDIN chegou</h2>
+      <p>Proteção 360°, absorção rápida, adequada para todos os tipos de pele, incluindo as sensíveis</p>
+      <a href="https://www.isdin.com/pt/p/fusion-water-magic-spf-50/1349" target="_blank" class="link-secondary">Saber mais</a>
+    </div>
+    <div class="feature">
+      <img src="images/cuidar da pele.avif" alt="Cuidados diários da pele">
+      <h2>Cuidados diários para a tua pele</h2>
+      <p>Descobre os benefícios de uma rotina diária com ISDIN e porque escolher os nossos produtos</p>
+      <a href="https://www.isdin.com/pt/love-your-skin" target="_blank" class="link-secondary">Ver mais</a>
+    </div>
+    <div class="feature">
+      <img src="images/antes e depois.jpg" alt="Resultados imediatos com ISDIN">
+      <h2>Resultados visíveis imediatamente</h2>
+      <p>Vê a diferença na pele antes e depois de usar os produtos ISDIN</p>
+      <a href="https://www.isdin.com/pt/p/isdinceutics-instant-flash-amp-5u-2ml/3513" target="_blank" class="link-secondary">Explorar mais</a>
+    </div>
+  </section>
+
+  <section class="quiz-section" id="quiz">  
+    <h2>Descobre o creme ISDIN ideal para ti 💙</h2>
+    <p>Responde a estas perguntas e encontra o cuidado perfeito para a tua pele.</p>
+
+    <form class="quiz-form" action="#" method="post">
+      <div class="question">
+        <h3>1. Como descreves o teu tipo de pele?</h3>
+        <label><input type="radio" name="pele" value="seca"> Seca</label>
+        <label><input type="radio" name="pele" value="mista"> Mista</label>
+        <label><input type="radio" name="pele" value="oleosa"> Oleosa</label>
+        <label><input type="radio" name="pele" value="sensivel"> Sensível</label>
+      </div>
+
+      <div class="question">
+        <h3>2. O que mais te preocupa na tua pele?</h3>
+        <label><input type="radio" name="preocupacao" value="rugas"> Rugas e linhas de expressão</label>
+        <label><input type="radio" name="preocupacao" value="manchas"> Manchas e tom irregular</label>
+        <label><input type="radio" name="preocupacao" value="oleosidade"> Oleosidade excessiva</label>
+        <label><input type="radio" name="preocupacao" value="sensibilidade"> Vermelhidão ou sensibilidade</label>
+      </div>
+
+      <div class="question">
+        <h3>3. Que textura preferes num creme?</h3>
+        <label><input type="radio" name="textura" value="leve"> Leve e fluida</label>
+        <label><input type="radio" name="textura" value="rica"> Rica e cremosa</label>
+        <label><input type="radio" name="textura" value="gel"> Gel refrescante</label>
+      </div>
+
+      <div class="question">
+        <h3>4. Quantos produtos costumas usar na tua rotina?</h3>
+        <label><input type="radio" name="rotina" value="essencial"> 1 a 2 produtos</label>
+        <label><input type="radio" name="rotina" value="completa"> 3 a 5 produtos</label>
+        <label><input type="radio" name="rotina" value="depende"> Depende do dia</label>
+      </div>
+
+      <div class="submit">
+        <a href="#produtos" class="btn-quiz">Ver produtos</a>
+      </div>
+    </form>
+  </section>
+
+  <section class="testimonials" id="opinioes">
+    <h2>O que dizem sobre a ISDIN</h2>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <img src="images/modelo 4.jpg" alt="Testemunho de cliente ISDIN">
+        <p>“Desde que comecei a usar o protetor ISDIN, sinto a minha pele muito mais leve e protegida — é incrível!”</p>
+        <h4>Joana Ferreira</h4>
+        <span>Cliente fiel há 2 anos</span>
+      </div>
+
+      <div class="testimonial">
+        <img src="images/modelo 1.jpeg" alt="Testemunho de cliente ISDIN">
+        <p>“A textura é perfeita e não deixa a pele oleosa. Finalmente encontrei o protetor ideal!”</p>
+        <h4>Madalena Almeida</h4>
+        <span>Triatleta e embaixadora ISDIN</span>
+      </div>
+
+      <div class="testimonial">
+        <img src="images/modelooo.webp" alt="Testemunho de cliente ISDIN">
+        <p>“Uso diariamente e adoro. A proteção solar é excelente, mesmo nas sessões ao ar livre.”</p>
+        <h4>Rita Costa</h4>
+        <span>Utilizadora diária</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight" id="produtos">
+    <h2>Em destaque</h2>
+    <div class="carrossel">
+      <a href="#prod1" class="seta esquerda">&#10094;</a>
+      <div class="products-container">
+        <div class="products">
+          <div class="product" id="prod1">
+            <img src="images/Produto FusionWater Magic.jpg" alt="Fusion Water MAGIC SPF 50 ISDIN">
+            <h3>Fusion Water MAGIC SPF 50</h3>
+            <p>Protetor solar facial ultraligeiro para uso diário</p>
+          </div>
+
+          <div class="product" id="prod2">
+            <img src="images/light color.jpg" alt="Fusion Water MAGIC Light SPF 50 ISDIN">
+            <h3>Fusion Water MAGIC Light SPF 50</h3>
+            <p>Protetor solar ultraligeiro com cor e efeito antioxidante</p>
+          </div>
+
+          <div class="product" id="prod3">
+            <img src="images/acniben.jpg" alt="Acniben Night Concentrate ISDIN">
+            <h3>Acniben Night Concentrate</h3>
+            <p>Sérum de noite formulado com retinaldeído para pele oleosa</p>
+          </div>
+
+          <div class="product" id="prod4">
+            <img src="images/magic repair.jpg" alt="Fusion Water MAGIC Repair SPF 50 ISDIN">
+            <h3>Fusion Water MAGIC Repair SPF 50</h3>
+            <p>Protetor solar facial anti-idade e ultraligeiro</p>
+          </div>
+
+          <div class="product" id="prod5">
+            <img src="images/alcarazzz.jpg" alt="Fusion Water MAGIC by Alcaraz SPF 50 ISDIN">
+            <h3>Fusion Water MAGIC by Alcaraz SPF 50</h3>
+            <p>Fotoprotetor facial formulado para desportistas</p>
+          </div>
+
+          <div class="product" id="prod6">
+            <img src="images/gel de limpeza.jpg" alt="Acniben Espuma de Limpeza ISDIN">
+            <h3>Acniben Espuma de Limpeza</h3>
+            <p>Espuma que limpa e purifica a pele</p>
+          </div>
+
+          <div class="product" id="prod7">
+            <img src="images/spray.jpg" alt="Body Spray ISDIN">
+            <h3>Body Spray</h3>
+            <p>Spray para cuidados corporais</p>
+          </div>
+        </div>
+      </div>
+      <a href="#prod7" class="seta direita">&#10095;</a>
+    </div>
+
+    <div class="indicadores">
+      <a href="#prod1" class="bolinha"></a>
+      <a href="#prod2" class="bolinha"></a>
+    </div>
+  </section>
+
+  <footer id="contactos">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4>Segue-nos nas redes sociais</h4>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/ISDINPortugal/" target="_blank"><img src="images/icons8-facebook-50.png" class="footer-icon" alt="Facebook ISDIN"></a>
+          <a href="https://www.youtube.com/@isdinportugal" target="_blank"><img src="images/icons8-youtube-50.png" class="footer-icon" alt="YouTube ISDIN"></a>
+          <a href="https://www.instagram.com/isdinportugal" target="_blank"><img src="images/icons8-instagram-50.png" class="footer-icon" alt="Instagram ISDIN"></a>
+          <a href="https://www.linkedin.com/company/isdin/?originalSubdomain=es" target="_blank"><img src="images/icons8-linkedin-circled-50.png" class="footer-icon" alt="LinkedIn ISDIN"></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>CORPORATIVO</h4>
+        <ul>
+          <li><a href="https://jobs.isdin.com/" target="_blank">Trabalhar na ISDIN</a></li>
+          <li><a href="https://www.bluewavealliance.org/isdin" target="_blank">Bluewave Alliance</a></li>
+          <li><a href="https://www.isdin.com/pt/legal_mentions" target="_blank">Ética e transparência</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>APOIO AO CLIENTE</h4>
+        <ul>
+          <li><a href="https://www.isdin.com/pt/faqs?redirectContactUs=true" target="_blank">Contacto</a></li>
+          <li><a href="https://www.isdin.com/pt/faqs?section=delivery"  target="_blank">Envio e entregas</a></li>
+          <li><a href="https://www.isdin.com/pt/return_policy"  target="_blank">Política de devoluções</a></li>
+          <li><a href="https://www.isdin.com/pt/faqs"  target="_blank">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>LOVE ISDIN</h4>
+        <ul>
+          <li><a href="https://love.isdin.com/med/pt-PT/register" target="_blank">LOVE ISDIN Médicos</a></li>
+          <li><a href="https://love.isdin.com/pt-PT/catalogo/customer/account/create/" target="_blank">LOVE ISDIN Farmácia</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 ISDIN. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
